@@ -1,0 +1,18 @@
+nav , header , footer , .Contenedor{
+    max-width: 92%;
+    margin: auto;
+}
+
+footer
+{
+background-color: blue;
+}
+header{
+    background-color: mediumblue;
+}
+.Contenedor{
+    background-color: grey;
+}
+.Central{
+    background-color: indianred;
+}
