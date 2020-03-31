@@ -1,18 +1,31 @@
-nav , header , footer , .Contenedor{
+body{
+    color: white;
+}
+nav, header,.contenedor,footer{
     max-width: 92%;
     margin: auto;
 }
+nav{
+    background-color: yellowgreen;
 
-footer
-{
-background-color: blue;
+    
 }
 header{
+    background-color: royalblue;
+}
+.contenedor{
+    background-color: tomato;
+}
+.central{
+    background-color: orange;
+    display: inline-block;
+    max-width: 65%;
+}
+footer{
     background-color: mediumblue;
 }
-.Contenedor{
-    background-color: grey;
-}
-.Central{
-    background-color: indianred;
+aside{
+    background-color: yellow;
+    display: inline-block;
+    max-width: 27%;
 }
