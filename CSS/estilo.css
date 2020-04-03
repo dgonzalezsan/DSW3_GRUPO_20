@@ -7,11 +7,12 @@ nav, header,.contenedor,footer{
 }
 nav{
     background-color: yellowgreen;
+    text-align: center;
 
     
 }
 header{
-    background-color: royalblue;
+    background-color: #005883;
 }
 .contenedor{
     background-color: tomato;
@@ -22,10 +23,35 @@ header{
     max-width: 65%;
 }
 footer{
-    background-color: mediumblue;
+    background-color: #005883
 }
 aside{
-    background-color: yellow;
+    background-color: darkgrey;
     display: inline-block;
     max-width: 27%;
+}
+.menu li{
+    display: inline-block;
+}
+li a, boton {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.9em  1em;
+}
+.listaDesplegable{
+    display: none;
+    background-color: aqua;
+    position: absolute;
+}
+.listaDesplegable a{
+color: blue;
+display: block;
+text-align: left;
+}
+.boton:hover .listaDesplegable{
+display: block;
+}
+li a:hover{
+    background-color: cadetblue;
 }
