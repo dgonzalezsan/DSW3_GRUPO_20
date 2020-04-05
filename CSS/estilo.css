@@ -2,9 +2,11 @@ body{
     color: white;
 }
 nav, header,.contenedor,footer{
-
   max-width: 92%;
     margin: auto;
+}
+header img{
+  max-width: 100%; margin-top: 10px;margin-bottom: none;
 }
 nav{
     background-color: yellowgreen;
@@ -14,14 +16,15 @@ header{
     text-align: center;color: black;
 }
 h1{
-  font-size: 50px;color: #005883;
+  font-size: 50px;color: #005883;margin-top: 10px;
+  margin-bottom: 10px;
 }
 .contenedor{
     background-color: #005883;
 }
 .central{
     background-color: none; display: inline-block;
-    max-width: 100%;margin-left: 25px;
+    max-width: 60%;margin-left: 25px;
 }
 footer{
     background-color: #005883
@@ -29,8 +32,12 @@ footer{
 aside{
     background-color: none;
     display: inline-block;
+<<<<<<< HEAD
     max-width: 27%; margin-left: 7em;
     align:right;
+=======
+    max-width: 27%; margin-left: 30px;
+>>>>>>> ba2b3ddf1e201eb4f2549ccd22ce888550da2bb4
 }
 .menu li{
     display: inline-block;
@@ -43,11 +50,11 @@ li a, boton {
 }
 .listaDesplegable{
     display: none;
-    background-color: aqua;
+    background-color: yellowgreen;
     position: absolute;
 }
 .listaDesplegable a{
-color: blue;
+color: black;
 display: block;
 text-align: left;
 }
