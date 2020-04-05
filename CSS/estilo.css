@@ -29,7 +29,7 @@ footer{
 aside{
     background-color: none;
     display: inline-block;
-    max-width: 27%;
+    max-width: 27%; margin-left: 7em;
 }
 .menu li{
     display: inline-block;
