@@ -21,7 +21,7 @@ h1{
 }
 .central{
     background-color: none; display: inline-block;
-    max-width: 100%;margin-left: 25px;
+    max-width: 60%;margin-left: 25px;
 }
 footer{
     background-color: #005883
@@ -29,7 +29,7 @@ footer{
 aside{
     background-color: none;
     display: inline-block;
-    max-width: 27%; margin-left: 7em;
+    max-width: 27%; margin-left: 30px;
 }
 .menu li{
     display: inline-block;
@@ -42,11 +42,11 @@ li a, boton {
 }
 .listaDesplegable{
     display: none;
-    background-color: aqua;
+    background-color: yellowgreen;
     position: absolute;
 }
 .listaDesplegable a{
-color: blue;
+color: black;
 display: block;
 text-align: left;
 }
