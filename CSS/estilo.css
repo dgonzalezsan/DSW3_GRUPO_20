@@ -32,12 +32,8 @@ footer{
 aside{
     background-color: none;
     display: inline-block;
-<<<<<<< HEAD
     max-width: 27%; margin-left: 7em;
     align:right;
-=======
-    max-width: 27%; margin-left: 30px;
->>>>>>> ba2b3ddf1e201eb4f2549ccd22ce888550da2bb4
 }
 .menu li{
     display: inline-block;
@@ -67,17 +63,12 @@ li a:hover{
 
 div.autor1 {
     width: 400px;
-    margin: 10px auto;
-    background-color: #449;
     color: #fff;
     padding: 10px;
-  
  }
   
 div.autor2 {
     width: 400px;
-    margin: 10px auto;
-    background-color:red;
     color: #fff;
     padding: 10px;
   
@@ -85,8 +76,6 @@ div.autor2 {
 
 div.autor3 {
     width: 400px;
-    margin: 10px auto;
-    background-color:  orange;
     color: #fff;
     padding: 10px;
     float: initial;
@@ -94,8 +83,6 @@ div.autor3 {
 
 div.autor4 {
     width: 400px;
-    margin: 10px auto;
-    background-color: green;
     color: #fff;
     padding: 10px;
 }
@@ -103,7 +90,6 @@ div.autor4 {
 div.twitter2 {
     width: 300px;
     margin: 10px auto;
-    background-color: green;
     color: #fff;
     padding: 10px;
 }
