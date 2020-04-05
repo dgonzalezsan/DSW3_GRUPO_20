@@ -1,0 +1,31 @@
+body{
+    color: white;
+}
+nav, header,.contenedor,footer{
+    max-width: 92%;
+    margin: auto;
+}
+nav{
+    background-color: yellowgreen;
+
+
+}
+header{
+    background-color: royalblue;
+}
+.contenedor{
+    background-color: tomato;
+}
+.central{
+    background-color: orange;
+    display: inline-block;
+    max-width: 65%;
+}
+footer{
+    background-color: mediumblue;
+}
+aside{
+    background-color: yellow;
+    display: inline-block;
+    max-width: 27%;
+}
