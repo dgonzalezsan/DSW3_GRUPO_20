@@ -2,32 +2,32 @@ body{
     color: white;
 }
 nav, header,.contenedor,footer{
-    
+
   max-width: 92%;
     margin: auto;
 }
 nav{
     background-color: yellowgreen;
     text-align: center;
-
-    
 }
 header{
-    background-color: #005883;
+    text-align: center;color: black;
+}
+h1{
+  font-size: 50px;color: #005883;
 }
 .contenedor{
-    background-color: tomato;
+    background-color: #005883;
 }
 .central{
-    background-color: orange;
-    display: inline-block;
-    max-width: 65%;
+    background-color: none; display: inline-block;
+    max-width: 100%;margin-left: 25px;
 }
 footer{
     background-color: #005883
 }
 aside{
-    background-color: darkgrey;
+    background-color: none;
     display: inline-block;
     max-width: 27%;
 }
