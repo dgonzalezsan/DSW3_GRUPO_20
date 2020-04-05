@@ -2,9 +2,11 @@ body{
     color: white;
 }
 nav, header,.contenedor,footer{
-
   max-width: 92%;
     margin: auto;
+}
+header img{
+  max-width: 100%; margin-top: 10px;margin-bottom: none;
 }
 nav{
     background-color: yellowgreen;
@@ -14,7 +16,8 @@ header{
     text-align: center;color: black;
 }
 h1{
-  font-size: 50px;color: #005883;
+  font-size: 50px;color: #005883;margin-top: 10px;
+  margin-bottom: 10px;
 }
 .contenedor{
     background-color: #005883;
