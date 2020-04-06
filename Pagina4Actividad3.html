@@ -2,26 +2,22 @@
 <html>
 <head>
   <title>Sopa de letras</title>
-
 <link rel="stylesheet" type="text/css" href="style.css"  media="all">
 <link rel="stylesheet" href="bootstrap.min.css" >
 <link rel="stylesheet" type="text/css" href="jquery-ui.css">
 <link href="jquery.tagit.css" rel="stylesheet" type="text/css">
-
-<script type="text/javascript" src="jquery.min.js"></script> 
-<script type="text/javascript" src="wordfind.js"></script> 
-<script type="text/javascript" src="wordfindgame.js"></script> 
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="wordfind.js"></script>
+<script type="text/javascript" src="wordfindgame.js"></script>
 <script type="text/javascript" src="bootstrap.min.js" ></script>
 <script type="text/javascript" src="jquery-ui.min.js"  ></script>
 <script type="text/javascript" src="tag-it.js"></script>
-
-
 </head>
 <body>
   <header>
-    <img src="IMG/LogoUnad.png" alt="logo de la UNAD">
-    <h1>OVI HTML5</h1>
-</header>
+      <img src="IMG/LogoUnad.png">
+      <h1>OVI HTML5</h1>
+  </header>
 <nav>
   <ul class ="menu">
     <li class="boton"><a href="index.html">INICIO</a>
@@ -59,7 +55,7 @@
     </style>
 <div class="container">
     <div class="row">
-        
+
         <script type="text/javascript">
             var mytag;
             $(document).ready(function () {
@@ -88,9 +84,9 @@
 
 
     </div>
-    
 
- 
+
+
 <div class="row text-center">
 <div class="ocultar">
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -128,10 +124,10 @@
 
                 </div>
          </div>
-        
-        
 
-        
+
+
+
 
 
 
@@ -143,20 +139,20 @@
 
 
 
-	
+
 </div>
 
 
-    
-    
-    
+
+
+
     <script>
     var words = [];
 	var gamePuzzle;
 	function Crear() {
-    
+
 	    datos = mytag[0].textContent.trim().split("×");
-        
+
 	    for (i = 0; i < (datos.length)-1; i++) {
 	       words.push(datos[i]);
 
@@ -164,24 +160,18 @@
 	    $('#Juegos').show();
 	    gamePuzzle = wordfindgame.create(datos, '#juego', '#Palabras');
 	    var puzzle = wordfind.newPuzzle(datos, { height: 18, width: 18, fillBlanks: false });
-        wordfind.print(puzzle);   
+        wordfind.print(puzzle);
       }
 		$('#solve').click( function() {wordfindgame.solve(gamePuzzle, words);});
     </script>
     </div>
   </section>
   <footer>
-
-   <p>Pie de pagina </p>
-   <h4>
-       Autores: <br>
-       Grupo_20 <br>
-       Ovier Luis Perez <br>
-       Evelyn Gisel Herrera <br>
-       Danel Gonzalez <br>
-       Alejandro Correa Roldan <br>
-       Marzo - 2020 <br>
-   </h4>
+    <h3>Diseño OVI HTML </h3>
+    <h4>
+        Autores (Grupo_20): <br>
+        Ovier Luis Perez - Evelyn Gisel Herrera - Daniel Gonzalez - Alejandro Correa Roldan<br><br>
+        Abril - 2020 <br>
   </footer>
 </body>
 </html>

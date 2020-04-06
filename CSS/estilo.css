@@ -27,12 +27,13 @@ h1{
     max-width: 60%;margin-left: 25px;
 }
 footer{
+    text-align: center;
     background-color: #005883
 }
 aside{
     background-color: none;
     display: inline-block;
-    max-width: 27%; margin-left: 30px;
+    max-width: 30%; margin-left: 10px;
 }
 .menu li{
     display: inline-block;
