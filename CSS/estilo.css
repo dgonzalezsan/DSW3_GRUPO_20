@@ -33,8 +33,7 @@ footer{
 aside{
     background-color: none;
     display: inline-block;
-    max-width: 30%; margin-left: 10px;
-}
+  }
 .menu li{
     display: inline-block;
 }
@@ -59,4 +58,37 @@ display: block;
 }
 li a:hover{
     background-color: cadetblue;
+}
+
+div.autor1 {
+    width: 400px;
+    color: #fff;
+    padding: 10px;
+ }
+
+div.autor2 {
+    width: 400px;
+    color: #fff;
+    padding: 10px;
+
+}
+
+div.autor3 {
+    width: 400px;
+    color: #fff;
+    padding: 10px;
+    float: initial;
+}
+
+div.autor4 {
+    width: 400px;
+    color: #fff;
+    padding: 10px;
+}
+
+div.twitter2 {
+    width: 300px;
+    margin: 10px auto;
+    color: #fff;
+    padding: 10px;
 }
