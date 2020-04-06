@@ -4,6 +4,7 @@ body{
 nav, header,.contenedor,footer{
   max-width: 92%;
     margin: auto;
+    border-radius: 0.5em;
 }
 header img{
   max-width: 100%; margin-top: 10px;margin-bottom: none;
@@ -11,6 +12,7 @@ header img{
 nav{
     background-color: yellowgreen;
     text-align: center;
+    
 }
 header{
     text-align: center;color: black;
@@ -20,7 +22,7 @@ h1{
   margin-bottom: 10px;
 }
 .contenedor{
-    background-color: #005883;
+    background-color: #063a53;
 }
 .central{
     background-color: none; display: inline-block;
@@ -29,38 +31,50 @@ h1{
 }
 footer{
     text-align: center;
-    background-color: #005883
+    background-color: #063a53;
 }
 aside{
-    background-color: none;
+    background-color: #063a53;
     display: inline-block;
     width: 28%;
     vertical-align: top;
   }
 .menu li{
     display: inline-block;
+    border-radius: 0.5em;
+
 }
 li a, boton {
     display: inline-block;
     text-align: center;
     text-decoration: none;
     padding: 0.9em  1em;
+    border-radius: 0.5em;
+
 }
 .listaDesplegable{
     display: none;
     background-color: yellowgreen;
     position: absolute;
+    border-radius: 0.5em;
+
 }
 .listaDesplegable a{
 color: black;
 display: block;
 text-align: left;
+border-radius: 0.5em;
+
 }
 .boton:hover .listaDesplegable{
 display: block;
+border-radius: 0.5em;
+
 }
 li a:hover{
     background-color: cadetblue;
+    border-radius: 0.5em;
+
 }
 
 div.autor1 {
