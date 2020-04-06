@@ -10,7 +10,7 @@ header img{
   max-width: 100%; margin-top: 10px;margin-bottom: none;
 }
 nav{
-    background-color: yellowgreen;
+    background-color: #F0B429;
     text-align: center;
     
 }
@@ -18,11 +18,11 @@ header{
     text-align: center;color: black;
 }
 h1{
-  font-size: 50px;color: #005883;margin-top: 10px;
+  font-size: 50px;color:#005883;margin-top: 10px;
   margin-bottom: 10px;
 }
 .contenedor{
-    background-color: #063a53;
+    background-color:#005883;
 }
 .central{
     background-color: none; display: inline-block;
@@ -31,10 +31,10 @@ h1{
 }
 footer{
     text-align: center;
-    background-color: #063a53;
+    background-color:#005883;
 }
 aside{
-    background-color: #063a53;
+    background-color: #005883;
     display: inline-block;
     width: 28%;
     vertical-align: top;
@@ -54,7 +54,7 @@ li a, boton {
 }
 .listaDesplegable{
     display: none;
-    background-color: yellowgreen;
+    background-color:#F0B429 ;
     position: absolute;
     border-radius: 0.5em;
 
@@ -72,7 +72,7 @@ border-radius: 0.5em;
 
 }
 li a:hover{
-    background-color: cadetblue;
+    background-color: #F47920 ;
     border-radius: 0.5em;
 
 }
