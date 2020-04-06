@@ -2,9 +2,11 @@ body{
   color: white;
 }
 nav, header,.contenedor,footer{
-
 max-width: 92%;
   margin: auto;
+}
+header img{
+max-width: 100%; margin-top: 10px;margin-bottom: none;
 }
 nav{
   background-color: yellowgreen;
@@ -14,24 +16,23 @@ header{
   text-align: center;color: black;
 }
 h1{
-font-size: 50px;color: #005883;
+font-size: 50px;color: #005883;margin-top: 10px;
+margin-bottom: 10px;
 }
 .contenedor{
   background-color: #005883;
 }
 .central{
   background-color: none; display: inline-block;
-  max-width: 100%;margin-left: 25px;
+  max-width: 60%;margin-left: 25px;
 }
 footer{
-  display: inline-block;
-  margin-left: auto;
+  text-align: center;
   background-color: #005883
 }
 aside{
   background-color: none;
   display: inline-block;
-  max-width: 27%;
 }
 .menu li{
   display: inline-block;
@@ -44,11 +45,11 @@ li a, boton {
 }
 .listaDesplegable{
   display: none;
-  background-color: aqua;
+  background-color: yellowgreen;
   position: absolute;
 }
 .listaDesplegable a{
-color: blue;
+color: black;
 display: block;
 text-align: left;
 }
@@ -57,6 +58,39 @@ display: block;
 }
 li a:hover{
   background-color: cadetblue;
+}
+
+div.autor1 {
+  width: 400px;
+  color: #fff;
+  padding: 10px;
+}
+
+div.autor2 {
+  width: 400px;
+  color: #fff;
+  padding: 10px;
+
+}
+
+div.autor3 {
+  width: 400px;
+  color: #fff;
+  padding: 10px;
+  float: initial;
+}
+
+div.autor4 {
+  width: 400px;
+  color: #fff;
+  padding: 10px;
+}
+
+div.twitter2 {
+  width: 300px;
+  margin: 10px auto;
+  color: #fff;
+  padding: 10px;
 }
 
 /** SOPA **/

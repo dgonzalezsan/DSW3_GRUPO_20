@@ -24,7 +24,8 @@ h1{
 }
 .central{
     background-color: none; display: inline-block;
-    max-width: 60%;margin-left: 25px;
+    vertical-align: top;
+    width: 70%;
 }
 footer{
     text-align: center;
@@ -33,6 +34,8 @@ footer{
 aside{
     background-color: none;
     display: inline-block;
+    width: 28%;
+    vertical-align: top;
   }
 .menu li{
     display: inline-block;
@@ -61,34 +64,17 @@ li a:hover{
 }
 
 div.autor1 {
-    width: 400px;
     color: #fff;
-    padding: 10px;
  }
 
 div.autor2 {
-    width: 400px;
     color: #fff;
-    padding: 10px;
-
 }
 
 div.autor3 {
-    width: 400px;
     color: #fff;
-    padding: 10px;
-    float: initial;
 }
 
 div.autor4 {
-    width: 400px;
     color: #fff;
-    padding: 10px;
-}
-
-div.twitter2 {
-    width: 300px;
-    margin: 10px auto;
-    color: #fff;
-    padding: 10px;
 }
